@@ -1,7 +1,7 @@
 import secrets
 import string
 import aiohttp
-from AylinRobot import AylinRobot as app
+from MusicAzBot import MusicAzBot as app
 
 from pyrogram import filters
 from Sehid import random_line
