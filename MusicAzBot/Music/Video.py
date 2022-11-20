@@ -1,7 +1,6 @@
 # @AylinRobot
 # Sahib @HuseynH
 # Repo Açığdısa İcazəsis Götürmə Oğlum
-# Mamana Salam De 
 
 
 import os
@@ -14,7 +13,7 @@ from pyrogram import Client, filters
 from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
 
-from AylinRobot import AylinRobot as app
+from MusicAzBot import MusicAzBot as app
 from helpers.filters import command
 
 
