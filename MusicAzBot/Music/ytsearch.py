@@ -22,17 +22,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 @app.on_message(command(["search", f"search@{Config.BOT_USERNAME}"]))
 async def ytsearch(_, message: Message):
-    
-    keyboard = InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton(
-                    "🗑 Close", callback_data="close",
-                )
-            ]
-        ]
-    )
-    
+  
     try:
         if len(message.command) < 2:
             await message.reply_text("/search **needs an argument !**")
