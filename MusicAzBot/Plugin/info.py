@@ -1,3 +1,7 @@
+# @MusicAzBot
+# Sahib @HuseynH
+# Repo Açığdısa İcazəsis Götürmə
+
 import os
 import asyncio
 import time
@@ -6,12 +10,12 @@ import requests
 from helpers.extract_user import extract_user, last_online
 from datetime import datetime
 import pyrogram
-from AylinRobot import AylinRobot as app
+from MusicAzBot import MusicAzBot as app
 from helpers.filters import command
-from AylinRobot import LOGGER
+from MusicAzBot import LOGGER
 from pyrogram import idle, filters
 from pyrogram import filters, Client
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 
 
 
