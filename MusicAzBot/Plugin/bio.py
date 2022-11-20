@@ -1,7 +1,6 @@
-# @AylinRobot
+# @MusicAzBot
 # Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
-# Mamana Salam De 
+# Repo Açığdısa İcazəsis Götürmə
 
 
 import random, os
@@ -9,9 +8,9 @@ from time import time
 from random import choice
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
-from AylinRobot import AylinRobot as app
+from MusicAzBot import MusicAzBot as app
 from pyrogram import idle, filters
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 from pyrogram import Client, filters
 
 liste = [
