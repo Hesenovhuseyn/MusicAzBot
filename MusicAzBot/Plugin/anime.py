@@ -1,17 +1,16 @@
-# @AylinRobot
+# @MusicAzBot
 # Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
-# Mamana Salam De 
+# Repo Açığdısa İcazəsis Götürmə
 
 import random
 from time import time
 from random import choice
 from pyrogram.types import Message
-from AylinRobot import AylinRobot as app
-from AylinRobot import LOGGER
+from MusicAzBot import MusicAzBot as app
+from MusicAzBot import LOGGER
 from pyrogram import idle, filters
 from pyrogram.errors import FloodWait
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 
 
 
