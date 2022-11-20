@@ -5,12 +5,12 @@
 import os
 from telegraph import upload_file
 import pyrogram
-from AylinRobot import AylinRobot as app
+from MusicAzBot import MusicAzBot as app
 from helpers.filters import command
-from AylinRobot import LOGGER
+from MusicAzBot import LOGGER
 from pyrogram import idle, filters
 from pyrogram import filters, Client
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 from pyrogram.types import (InlineQueryResultArticle, InputTextMessageContent,InlineKeyboardMarkup, InlineKeyboardButton,CallbackQuery, InlineQuery)
 
 
