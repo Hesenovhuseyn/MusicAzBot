@@ -61,6 +61,39 @@ async def show_status_count(_, client: Message):
         quote=True
     )
 
+
+@app.on_message(filters.private & filters.command("chatlist") & filters.user(Config.OWNER_ID))
+async def chatlist(client, message):
+    chats = []
+    all_chats = load_chats_list()
+    for i in all_chats:
+        if str(i).startswith("-"):
+            chats.append(i)
+    chatfile = "List of chats.\n0. Chat ID | Members count | Invite Link\n"
+    P = 1
+    for chat in chats:
+        try:
+            link = await app.export_chat_invite_link(int(chat))
+        except:
+            link = "Null"
+        try:
+            members = await app.get_chat_members_count(int(chat))
+        except:
+            members = "Null"
+        try:
+            chatfile += "{}. {} | {} | {}\n".format(P, chat, members, link)
+            P = P + 1
+        except:
+            pass
+    with BytesIO(str.encode(chatfile)) as output:
+        output.name = "chatlist.txt"
+        await message.reply_document(document=output, disable_notification=True)
+
+
+
+
+
+
 app.start()
 LOGGER.info(f"{Config.BOT_USERNAME} Uğurla Başladı Sahibim {Config.OWNER_NAME}")
 idle()
