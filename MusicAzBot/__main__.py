@@ -19,6 +19,8 @@ from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from helpers.mrdarkprince import get_arg
+from helpers.mrdarkprince import ignore_blacklisted_users
+from helpers.chat_sql import add_chat_to_db
 from helpers.chat_sql import load_chats_list, remove_chat_from_db
 from io import BytesIO
 from MusicAzBot.Plugin import *
