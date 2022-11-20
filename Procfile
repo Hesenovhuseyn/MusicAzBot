@@ -1,1 +1,1 @@
-worker: python3 -m AylinRobot
+worker: python3 -m MusicAzBot
