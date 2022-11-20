@@ -6,7 +6,7 @@ from pytgcalls.types import Update
 from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
 
-from m8n.database.queue import (
+from MusicAzBot.database.queue import (
     is_active_chat,
     add_active_chat,
     remove_active_chat,
@@ -14,7 +14,7 @@ from m8n.database.queue import (
     is_music_playing,
     music_off,
 )
-from m8n.config import API_HASH, API_ID, SESSION_NAME
+from MusicAzBot.config import API_HASH, API_ID, SESSION_NAME
 from m8n.tgcalls import queues
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
