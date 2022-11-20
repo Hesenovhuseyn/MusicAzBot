@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker, scoped_session
 
 
 def start() -> scoped_session:
-    engine = create_engine(Config.MONGODB_CLI)
+    engine = create_engine(MONGODB_CLI)
     BASE.metadata.bind = engine
     BASE.metadata.create_all(engine)
     return scoped_session(sessionmaker(bind=engine, autoflush=False))
