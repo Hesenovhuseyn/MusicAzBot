@@ -1,6 +1,7 @@
 __version__ = "0.7.0"
 
-
+from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
+from MusicAzBot.config import Config
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
@@ -16,9 +17,6 @@ def start() -> scoped_session:
 BASE = declarative_base()
 SESSION = start()
 
-
-from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
-from MusicAzBot.config import Config
 
 
 MONGODB_CLI = MongoClient(Config.MONGODB_URI)
