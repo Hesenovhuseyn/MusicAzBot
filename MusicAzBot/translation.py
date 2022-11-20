@@ -1,5 +1,10 @@
+# @MusicAzBot
+# Sahib @HuseynH
+# Repo Açığdısa İcazəsis Götürmə
+
+
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 
 class Translation(object):
 
@@ -20,7 +25,7 @@ class Translation(object):
 📃 Açıqlama: Bot haqqında ümumi məlumat verər.
 
 🔮 Istifadə: /broadcast
-📃 Açıqlama: Yayım başladar.
+📃 Açıqlama: PM Yayım başladar.
 
 🔮 Istifadə: /gcast
 📃 Açıqlama: Qruplarda yayım edər.
