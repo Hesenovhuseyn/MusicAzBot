@@ -1,11 +1,16 @@
+# @MusicAzBot
+# Sahib @HuseynH
+# Repo Açığdısa İcazəsis Götürmə
+
+
 import logging
 
 import time
 from pyrogram import Client, filters, idle
-from AylinRobot import AylinRobot as app
+from MusicAzBot import MusicAzBot as app
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import pyrogram
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 from datetime import datetime
 
 from pyrogram.errors import FloodWait
