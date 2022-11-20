@@ -1,10 +1,15 @@
+# @MusicAzBot
+# Sahib @HuseynH
+# Repo Açığdısa İcazəsis Götürmə
+
+
 from pyrogram.types import Message, User
-from AylinRobot import AylinRobot as app
-from AylinRobot import LOGGER
+from MusicAzBot import MusicAzBot as app
+from MusicAzBot import LOGGER
 from pyrogram import Client, filters, idle
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import pyrogram
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 from datetime import datetime
 
 from os import path
