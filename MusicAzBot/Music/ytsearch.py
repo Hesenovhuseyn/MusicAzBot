@@ -1,8 +1,8 @@
 import json
 import logging
 
-from AylinRobot import AylinRobot as app
-from AylinRobot.config import Config
+from MusicAzBot import MusicAzBot as app
+from MusicAzBot.config import Config
 from helpers.filters import command
 from pyrogram import Client
 from pyrogram.types import (
