@@ -18,7 +18,7 @@ from helpers.display_progress import humanbytes
 from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from MusicAzBot.Plugins import *
+from MusicAzBot.Plugin import *
 from MusicAzBot.Music import *
 from MusicAzBot.Oyunlar import *
 from pyrogram import idle, filters
