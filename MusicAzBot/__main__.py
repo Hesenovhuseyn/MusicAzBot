@@ -1,6 +1,6 @@
-# @AylinRobot
+# @MusicAzBot
 # Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# Repo Açığdısa İcazəsis Götürmə
 
 import os
 import time
@@ -8,9 +8,9 @@ import psutil
 import shutil
 import string
 import asyncio
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 from asyncio import TimeoutError
-from AylinRobot.translation import Translation
+from MusicAzBot.translation import Translation
 from helper.database.access_db import db
 from helper.broadcast import broadcast_handler
 from helper.database.add_user import AddUserToDatabase
@@ -18,15 +18,15 @@ from helper.display_progress import humanbytes
 from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from AylinRobot.Plugins import *
-from AylinRobot.Music import *
-from AylinRobot.Oyunlar import *
+from MusicAzBot.Plugins import *
+from MusicAzBot.Music import *
+from MusicAzBot.Oyunlar import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from AylinRobot import AylinRobot as app
-from AylinRobot import LOGGER
+from MusicAzBot import MusicAzBot as app
+from MusicAzBot import LOGGER
 
-AylinRobotIMG = f"{Config.START_IMG}"
+MusicAzBotIMG = f"{Config.START_IMG}"
 
 
 
@@ -34,7 +34,7 @@ AylinRobotIMG = f"{Config.START_IMG}"
 async def start(client, message):
     await AddUserToDatabase(client, message)
     await message.reply_photo(
-        AylinRobotIMG,
+        MusicAzBotIMG,
         caption=Translation.START_TEXT.format(message.from_user.mention, Config.BOT_USERNAME),
         reply_markup=Translation.START_BUTTONS
     )
