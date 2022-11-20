@@ -1,15 +1,15 @@
-# @AylinRobot
+# @MusicAzBot
 # Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# Repo Açığdısa İcazəsis Götürmə
 
 
 import os
-from AylinRobot.translation import Translation
-from AylinRobot.config import Config
+from MusicAzBot.translation import Translation
+from MusicAzBot.config import Config
 from pyrogram import Client
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from AylinRobot import AylinRobot as app
+from MusicAzBot import MusicAzBot as app
 
 @app.on_callback_query()
 async def cb_data(client, message):
