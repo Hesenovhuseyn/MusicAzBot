@@ -5,6 +5,8 @@ TgCrypto
 python-dotenv
 motor
 telegraph
+youtube_dl
+youtube_search_python 
 requests
 aiohttp
 aiofiles
@@ -20,6 +22,10 @@ ujson
 psutil
 future
 dnspython
+yt-dlp
+yt_dlp
+speedtest-cli
+youtube_search
 OpenCC
 pytube
 pillow
