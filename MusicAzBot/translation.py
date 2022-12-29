@@ -125,10 +125,6 @@ Bazada *2881* Şəhid adı mövcuddur
         ],[        
         InlineKeyboardButton('➕ Məni Qrupa Əlavə Et ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true")
         ],[
-        InlineKeyboardButton("Etiraf Botu", url=f"https://t.me/{Config.ETIRAFBOT}"),
-        InlineKeyboardButton("Etiraf Kanalı", url=f"https://t.me/{Config.ETIRAF}"),
-        ],[        
-        InlineKeyboardButton("Söhbət Qrupu"  , url=f"https://t.me/{Config.SUPPORT}"),
         InlineKeyboardButton('Sahibim🧑‍💻',  url=f"https://t.me/{Config.OWNER_NAME}"),
         ],[        
         InlineKeyboardButton("🎵 Playlist", url=f"https://t.me/{Config.PLAYLIST_NAME}"),
