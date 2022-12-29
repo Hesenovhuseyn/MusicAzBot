@@ -34,12 +34,12 @@
         },
         "PLAYLIST_NAME": {
             "description": "Playlist kanalının kullanıcı adını @ bu işarə olmadan yazın.",
-            "value": "AylinRobotPlaylist",
+            "value": "huzurum98",
             "required": true
         },
         "PLAYLIST_ID": {
             "description": "Playlist kanalının ID-ni yazın.",
-            "value": "-1001779768200",
+            "value": "-1001710291377",
             "required": true
         },
         "OWNER_NAME": {
@@ -49,12 +49,12 @@
         },
         "OWNER_ID": {
             "description": "Öz İdiniz.",
-            "value": "5690708043",
+            "value": "5840833148",
             "required": true
         },
         "BOT_USERNAME": {
             "description": "Botun kullanıcı adını @ bu işarə olmadan yazın.",
-            "value": "AylinRobot",
+            "value": "DunyaMusicBot",
             "required": true
         },
         "BROADCAST_AS_COPY": {
@@ -64,17 +64,17 @@
         },
         "MONGODB_URI": {
             "description": "MongoDB.com database url.",
-            "value": "",
+            "value": "mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
             "required": true
         },
         "LOG_CHANNEL": {
             "description": "Log kanlnızın idsi",
-            "value": "-1001717783877",
+            "value": "-1001710291377",
             "required": true
         },
         "BOT_OWNER": {
             "description": "bot sahibinin idsi.",
-            "value": "5188815198",
+            "value": "5840833148",
             "required": true
         }
     },
