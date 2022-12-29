@@ -3,17 +3,17 @@ import os
 
 class Config:
 
-   API_ID = int(os.getenv("API_ID"))
-   API_HASH = os.getenv("API_HASH")
-   BOT_TOKEN = os.getenv("BOT_TOKEN")
-   BOT_USERNAME = os.environ.get("BOT_USERNAME")
-   OWNER_ID = int(os.environ.get("OWNER_ID","5475011533"))
-   OWNER_NAME = os.environ.get("OWNER_NAME") 
+   API_ID = int(os.getenv("API_ID", "8953338"))
+   API_HASH = os.getenv("API_HASH", "fe21f223cb02d8f7c1cbda651f553a45")
+   BOT_TOKEN = os.getenv("BOT_TOKEN", "5976700768:AAGKIP1hMx4w_lOJ6ptNVevEySsYDvk_Bbo")
+   BOT_USERNAME = os.environ.get("BOT_USERNAME", "DunyaMusicBot")
+   OWNER_ID = int(os.environ.get("OWNER_ID","5840833148"))
+   OWNER_NAME = os.environ.get("OWNER_NAME", "Husidi") 
    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-   PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME")
-   PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID"))
+   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001817585114"))
+   PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "huzurum98")
+   PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1001710291377"))
    COMMAND_PREFIXES = list(os.environ.get("COMMAND_PREFIXES", "/ ! .").split())
    
    
@@ -21,10 +21,10 @@ class Config:
 
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "HUSEYN")
 
-   ETIRAFBOT = os.environ.get("ETIRAFBOT", "PGBEtirafBot")
+   ETIRAFBOT = os.environ.get("ETIRAFBOT", "nnnn")
   
-   SUPPORT = os.environ.get("SUPPORT", "PGBTeamGroup")
-   ETIRAF = os.environ.get("ETIRAF", "PgbTeamChannel")   
+   SUPPORT = os.environ.get("SUPPORT", "nnn")
+   ETIRAF = os.environ.get("ETIRAF", "hhh")   
    ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/f6c186e3c581a223856c4.mp4") 
    
    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/9bb9dd24fa66576f08ad1.jpg")    
