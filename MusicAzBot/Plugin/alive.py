@@ -60,7 +60,7 @@ async def _human_time_duration(seconds):
 
 
 @app.on_message(
-    command(["alive"]) & filters.group & ~filters.edited
+    command(["alive"]) & ~filters.edited
 )
 async def start_group(client: Client, message: Message):
     current_time = datetime.utcnow()
