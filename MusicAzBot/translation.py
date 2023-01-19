@@ -79,12 +79,11 @@ class Translation(object):
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('💠 Kömək', callback_data='help'),
-        ],[        
-        InlineKeyboardButton('➕ Məni Qrupa Əlavə Et ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true")
+        InlineKeyboardButton('➕ Məni Qrupa Əlavə Et ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true")          
+        ],[
+        InlineKeyboardButton('🇦🇿 Kömək', callback_data='help'),
         ],[
         InlineKeyboardButton('Sahibim🧑‍💻',  url=f"https://t.me/{Config.OWNER_NAME}"),
-        ],[        
         InlineKeyboardButton("🎵 Playlist", url=f"https://t.me/{Config.PLAYLIST_NAME}"),
         ]]
     )
