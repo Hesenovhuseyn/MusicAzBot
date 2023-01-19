@@ -52,48 +52,6 @@ class Translation(object):
 📃 Açıqlama: YouTube axtarış üçün istifadə edə bilərsiniz.
 """
 
-    TELEGRAPH_TEXT = """
-
-🔮 Istifadə: /tgm
-📃 Açıqlama: Şəkil, video və ya GIF göndərərək link ala bilərsiniz.
-
-"""
-
-    SEHID_TEXT = """
-
-🔮 Istifadə: /sehid 
-📃 Açıqlama:  Bu əmr vaistəsiylə sizə *Şəhid* adları göndərəcəm
-
-*Allah bütün Şəhidimizə rəhmət eləsin*
-Qazilərimizə şəfa versin 
-Başın sağolsun Azərbaycan 🇦🇿
-Bazada *2881* Şəhid adı mövcuddur
-
-""" 
-    OYUN_TEXT = """
-
-🔮 Istifadə: /zer
-📃 Açıqlama: zər atar
-
-🔮 Istifadə: /top
-📃 Açıqlama: top atar
-
-🔮 Istifadə: /bowling
-📃 Açıqlama: bowling atar
-
-🔮 Istifadə: /ox
-📃 Açıqlama: ox atar
-
-🔮 Istifadə: /jackpot
-📃 Açıqlama: jackpot atar
-
-"""
-
-    TAG_TEXT = """
-
-🔮 Istifadə: İşləmir.
-
-"""
 
 
     ELAVELER_TEXT = """
@@ -133,18 +91,9 @@ Bazada *2881* Şəhid adı mövcuddur
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('🎵 Musiqi', callback_data='musıc'),
-        InlineKeyboardButton('⭐ Telegraph', callback_data='tg')
-        ],[
-        InlineKeyboardButton('🎮 Oyunlar', callback_data='oyun'),
-        InlineKeyboardButton('🇦🇿 Şəhidlər', callback_data='sehıd'),
-        ],[        
-        InlineKeyboardButton('🌀 Tagger', callback_data='tag'),
-        InlineKeyboardButton('Əlavələr', callback_data='elave'),
-        ],[
         InlineKeyboardButton('👨‍💻 Sahib Əmrləri', callback_data='sahib'), 
         ],[        
         InlineKeyboardButton('↪️ Geri Qayıt', callback_data='home'),
-        InlineKeyboardButton('✖️ Bağla', callback_data='close')
         ]]
     )
     
