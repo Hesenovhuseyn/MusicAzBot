@@ -31,63 +31,10 @@ async def cb_data(client, message):
             reply_markup=Translation.MUSIC_BUTTONS,
             disable_web_page_preview=True
         )
-    elif message.data == "tag":
-        await message.message.edit_text(
-            text=Translation.TAG_TEXT,
-            reply_markup=Translation.TAG_BUTTONS,
-            disable_web_page_preview=True
-        )
-    elif message.data == "hmesaj":
-        await message.message.edit_text(
-            text=Translation.HAZIRMESAJ_TEXT,
-            reply_markup=Translation.HAZIRMESAJ_BUTTONS,
-            disable_web_page_preview=True
-        )        
-    elif message.data == "eylence":
-        await message.message.edit_text(
-            text=Translation.EYLENCE_TEXT,
-            reply_markup=Translation.EYLENCE_BUTTONS,
-            disable_web_page_preview=True
-        )
-    elif message.data == "tg":
-        await message.message.edit_text(
-            text=Translation.TELEGRAPH_TEXT,
-            reply_markup=Translation.TELEGRAPH_BUTTONS,
-            disable_web_page_preview=True
-        ) 
-    elif message.data == "anıme":
-        await message.message.edit_text(
-            text=Translation.ANIME_TEXT,
-            reply_markup=Translation.ANIME_BUTTONS,
-            disable_web_page_preview=True
-        )        
-    elif message.data == "sc":
-        await message.message.edit_text(
-            text=Translation.SC_TEXT,
-            reply_markup=Translation.SC_BUTTONS,
-            disable_web_page_preview=True
-        )
-    elif message.data == "sehıd":
-        await message.message.edit_text(
-            text=Translation.SEHID_TEXT,
-            reply_markup=Translation.SEHID_BUTTONS,
-            disable_web_page_preview=True
-        ) 
-    elif message.data == "oyun":
-        await message.message.edit_text(
-            text=Translation.OYUN_TEXT,
-            reply_markup=Translation.OYUN_BUTTONS,
-            disable_web_page_preview=True
-        )        
+
     elif message.data == "sahib":
         await message.message.edit_text(
             text=Translation.SAHIB_TEXT,
             reply_markup=Translation.SAHIB_BUTTONS,
             disable_web_page_preview=True
         ) 
-    elif message.data == "elave":
-        await message.message.edit_text(
-            text=Translation.ELAVELER_TEXT.format(message.from_user.mention),
-            reply_markup=Translation.ELAVE_BUTTONS,
-            disable_web_page_preview=True
-        )        
