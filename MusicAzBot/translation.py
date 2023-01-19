@@ -11,11 +11,11 @@ class Translation(object):
     START_TEXT = """
 **Salam {} 👋**
 
-**Mənim Adım  ️️️️️️{} 🙋‍♀️ Mən Azərbaycan Dilində Çox Özəllikili Telegram Botuyam Bacarıqlarımı Görmək Üçün `💠 Kömək` Buttonuna Toxun**
+**Mənim Adım  ️️️️️️{} 🇦🇿 Mən Azərbaycan Dilində Sizin Üçün Musiqi, Video Yükləmək Və Mahnı Sözlərini Tapmaq Üçün Telegram Botuyam Bacarıqlarım la Tanış Olmaq Üçün `🇦🇿 Əmrlər` Buttonuna Toxunun.**
 
 """    
     HELP_TEXT = """
-**{} 🙈 Əmrlərim Bunlardır  Buttonlara toxunaraq istədiyiniz əmr haqqında məlumat ala bilərsiniz**
+**{} 🇦🇿 Əmrlərim Bunlardır  Buttonlara toxunaraq istədiyiniz əmr haqqında məlumat ala bilərsiniz**
 
 """
 
@@ -54,24 +54,7 @@ class Translation(object):
 
 
 
-    ELAVELER_TEXT = """
 
-🔮 Istifadə: /carbon
-📃 Açıqlama: Yazdığınız mesajı şəkilə çevirin
-
-🔮 Istifadə: /id
-📃 Açıqlama: İstifadəçinin s ID alın.
-
-🔮 Istifadə: /info
-📃 Açıqlama: İstifadəçi haqqında məlumat verər
-
-🔮 Istifadə: /speedtest
-📃 Açıqlama: Botun yükləmə sürətini göstərər.
-
-🔮 Istifadə: /alive
-📃 Açıqlama: Botun işlək olduğunu yoxlayar.
-
-"""
 
 
 
@@ -81,7 +64,7 @@ class Translation(object):
         [[
         InlineKeyboardButton('➕ Məni Qrupa Əlavə Et ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true")          
         ],[
-        InlineKeyboardButton('🇦🇿 Kömək', callback_data='help'),
+        InlineKeyboardButton('🇦🇿 Əmrlər', callback_data='help'),
         ],[
         InlineKeyboardButton('Sahibim🧑‍💻',  url=f"https://t.me/{Config.OWNER_NAME}"),
         InlineKeyboardButton("🎵 Playlist", url=f"https://t.me/{Config.PLAYLIST_NAME}"),
