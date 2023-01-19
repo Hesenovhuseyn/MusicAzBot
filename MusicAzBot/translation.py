@@ -101,42 +101,10 @@ class Translation(object):
     MUSIC_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
-        InlineKeyboardButton('✖️ Bağla', callback_data='close')
         ]]
     )
-    TELEGRAPH_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
-        InlineKeyboardButton('✖️ Bağla', callback_data='close')
-        ]]
-    )
-    SEHID_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
-        InlineKeyboardButton('✖️ Bağla', callback_data='close')
-        ]]
-    )        
-    OYUN_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
-        InlineKeyboardButton('✖️ Bağla', callback_data='close')
-        ]]
-    )
-    TAG_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
-        InlineKeyboardButton('✖️ Bağla', callback_data='close')
-        ]]
-    )     
     SAHIB_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
-        InlineKeyboardButton('✖️ Bağla', callback_data='close')
         ]]
     )
-    ELAVE_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
-        InlineKeyboardButton('✖️ Bağla', callback_data='close')
-        ]]
-    )    
