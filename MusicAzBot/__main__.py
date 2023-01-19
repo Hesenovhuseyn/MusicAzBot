@@ -20,7 +20,6 @@ from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from MusicAzBot.Plugin import *
 from MusicAzBot.Music import *
-from MusicAzBot.Oyunlar import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from MusicAzBot import MusicAzBot as app
