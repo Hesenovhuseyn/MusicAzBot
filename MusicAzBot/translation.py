@@ -15,7 +15,7 @@ class Translation(object):
 
 """    
     HELP_TEXT = """
-**{} 🇦🇿 Əmrlərim Bunlardır  Buttonlara toxunaraq istədiyiniz əmr haqqında məlumat ala bilərsiniz**
+**{} 🇦🇿 Əmrlərim Bunlardır 🎵 Buttonuna Toxunaraq İstədiyiniz əmr Haqqında Məlumat Ala Bilərsiniz**
 
 """
 
