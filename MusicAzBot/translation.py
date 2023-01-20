@@ -11,7 +11,7 @@ class Translation(object):
     START_TEXT = """
 **Salam {} 👋**
 
-**Mənim Adım  ️️️️️🇦🇿 {} Mahnı Sözlərini Tapmaq Üçün Hazırlanmış Telegram Botuyam Bacarıqlarım la Tanış Olmaq Üçün `🇦🇿 Əmrlər` Buttonuna Toxunun.**
+**Mənim Adım  ️️️️️🇦🇿 {} Sizin Üçün Musiqi, Video Yükləmək Və Mahnı Sözlərini Tapmaq Üçün Hazırlanmış Telegram Botuyam Bacarıqlarım la Tanış Olmaq Üçün `🇦🇿 Əmrlər` Buttonuna Toxunun.**
 
 """    
     HELP_TEXT = """
