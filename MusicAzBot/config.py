@@ -15,7 +15,7 @@ class Config:
    PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "MusicAzPlaylist")
    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1001692410500"))
    COMMAND_PREFIXES = list(os.environ.get("COMMAND_PREFIXES", "/ ! .").split())
-   HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "c65f693e-fe89-42b0-a3f9-599643757c37")
+   HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "ef763571-688b-4eae-b8ac-4eeefaf23c48")
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "HUSEYN")
    ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/f6c186e3c581a223856c4.mp4") 
    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/dc9794139c12507f5eb1c.jpg")    
