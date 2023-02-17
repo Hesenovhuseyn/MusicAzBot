@@ -1,11 +1,16 @@
-from MusicAzBot.config import Config
-from MusicAzBot import MusicAzBot as app
-import os, youtube_dl, requests, aiohttp, wget, time
+# @AylinRobot
+# Sahib @HuseynH
+# Repo Açığdısa İcazəsis Götürmə Oğlum
+
+import os, youtube_dl, requests, aiohttp, wget, time, yt_dlp
+from AylinRobot import AylinRobot as app
+from random import randint
+from urllib.parse import urlparse
+from pyrogram.errors import FloodWait, MessageNotModified
+from pyrogram import Client, filters
 from youtube_search import YoutubeSearch
 from pyrogram.handlers import MessageHandler
-from yt_dlp import YoutubeDL
-from pyrogram import Client, filters
-import yt_dlp
+from AylinRobot.config import Config
 from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
@@ -25,7 +30,7 @@ buttons = {
 }
 
 
-@app.on_message(filters.command(['song']))
+@app.on_message(filters.command(["song", f"song@{Config.BOT_USERNAME}"]))
 def song(client, message):
 
     message.delete()
@@ -93,7 +98,7 @@ def song(client, message):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
         m.edit("📤 Yüklənir..")
-        message.reply_audio(audio_file, caption=caption_for_private, quote=False, title=title, duration=dur, thumb=thumb_name, parse_mode="md", performer = f"{Config.PLAYLIST_NAME}", reply_markup=buttons['markup_for_private'])
+        message.reply_audio(audio_file, caption=caption_for_private, quote=False, title=title, duration=dur, thumb=thumb_name, performer = f"{Config.PLAYLIST_NAME}", reply_markup=buttons['markup_for_private'])
         m.delete()
         app.send_audio(chat_id=Config.PLAYLIST_ID, audio=audio_file, caption=caption_for_logchannel, performer = f"{Config.BOT_USERNAME}", title=title, duration=dur, thumb=thumb_name, reply_markup=buttons['add_to_group'])
     except Exception as e:
