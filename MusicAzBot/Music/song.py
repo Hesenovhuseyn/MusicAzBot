@@ -3,14 +3,14 @@
 # Repo Açığdısa İcazəsis Götürmə Oğlum
 
 import os, youtube_dl, requests, aiohttp, wget, time, yt_dlp
-from AylinRobot import AylinRobot as app
+from MusicAzBot import MusicAzBot as app
 from random import randint
 from urllib.parse import urlparse
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram import Client, filters
 from youtube_search import YoutubeSearch
 from pyrogram.handlers import MessageHandler
-from AylinRobot.config import Config
+from MusicAzBot.config import Config
 from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
