@@ -7,7 +7,7 @@ class Config:
    API_HASH = os.getenv("API_HASH", "fe21f223cb02d8f7c1cbda651f553a45")
    BOT_TOKEN = os.getenv("BOT_TOKEN", "2142897671:AAEHf0HdxZN3vm3eUcTz72dB38ma8vY_AaE")
    BOT_USERNAME = os.environ.get("BOT_USERNAME", "MusicAzBot")
-   OWNER_ID = int(os.environ.get("OWNER_ID","5865605067"))
+   OWNER_ID = int(os.environ.get("OWNER_ID","6021566814"))
    OWNER_NAME = os.environ.get("OWNER_NAME", "Husidi") 
    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
