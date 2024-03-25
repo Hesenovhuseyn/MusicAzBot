@@ -3,7 +3,6 @@ import logging
 
 from MusicAzBot import MusicAzBot as app
 from MusicAzBot.config import Config
-from helpers.filters import command
 from pyrogram import Client
 from pyrogram.types import (
     CallbackQuery,
@@ -20,7 +19,7 @@ logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
-@app.on_message(command(["search", f"search@{Config.BOT_USERNAME}"]))
+@app.on_message(filters.command(["search", f"search@{Config.BOT_USERNAME}"]))
 async def ytsearch(_, message: Message):
   
     try:
