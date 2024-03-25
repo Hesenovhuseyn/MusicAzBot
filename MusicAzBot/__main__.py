@@ -11,12 +11,6 @@ import asyncio
 from MusicAzBot.config import Config
 from asyncio import TimeoutError
 from MusicAzBot.translation import Translation
-from helpers.database.access_db import db
-from helpers.broadcast import broadcast_handler
-from helpers.database.add_user import AddUserToDatabase
-from helpers.display_progress import humanbytes
-from pyrogram import Client
-from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from MusicAzBot.Plugin import *
 from MusicAzBot.Music import *
