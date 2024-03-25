@@ -3,7 +3,7 @@ import logging
 
 from MusicAzBot import MusicAzBot as app
 from MusicAzBot.config import Config
-from pyrogram import Client
+from pyrogram import Client, filters
 from pyrogram.types import (
     CallbackQuery,
     InlineKeyboardButton,
