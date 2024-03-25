@@ -14,11 +14,10 @@ from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
 
 from MusicAzBot import MusicAzBot as app
-from helpers.filters import command
 
 
 @app.on_message(
-    command(["video"]) & ~filters.edited
+    filters.command(["video"]
 )
 async def vsong(client, message):
     ydl_opts = {
