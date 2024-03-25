@@ -18,7 +18,7 @@ from MusicAzBot import MusicAzBot as app
 
 @app.on_message(
     filters.command(["video"]
-)
+))
 async def vsong(client, message):
     ydl_opts = {
         "format": "best",
