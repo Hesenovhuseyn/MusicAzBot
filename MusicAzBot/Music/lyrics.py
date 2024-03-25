@@ -13,7 +13,7 @@ from pyrogram.types import (
 )
 
 
-@app.on_message(filters.command("lyrics") & ~filters.edited)
+@app.on_message(filters.command("lyrics"))
 async def lrsearch(_, message: Message):
     if len(message.command) < 2:
         return await message.reply_text("**İstifadə:**\n\n/lyrics [ Musiqi Adı]")
