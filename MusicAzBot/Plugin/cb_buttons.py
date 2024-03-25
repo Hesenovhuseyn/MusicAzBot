@@ -31,10 +31,3 @@ async def cb_data(client, message):
             reply_markup=Translation.MUSIC_BUTTONS,
             disable_web_page_preview=True
         )
-
-    elif message.data == "sahib":
-        await message.message.edit_text(
-            text=Translation.SAHIB_TEXT,
-            reply_markup=Translation.SAHIB_BUTTONS,
-            disable_web_page_preview=True
-        ) 
