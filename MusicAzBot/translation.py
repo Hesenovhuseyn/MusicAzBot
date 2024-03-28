@@ -19,21 +19,6 @@ class Translation(object):
 
 """
 
-    SAHIB_TEXT = """
-
-🔮 Istifadə: /status
-📃 Açıqlama: Bot haqqında ümumi məlumat verər.
-
-🔮 Istifadə: /broadcast
-📃 Açıqlama: PM Yayım başladar.
-
-🔮 Istifadə: /gcast
-📃 Açıqlama: Qruplarda yayım edər.
-
-🔮 Istifadə: /broadcast_pin
-📃 Açıqlama: Qruplarda yayım edər və pinləyər.
-"""
-
     MUSIC_TEXT = """
 🔮 Istifadə: /song 
 🧩 Nümunə: /song Rei - Ah Canım Sevgilim
@@ -72,8 +57,7 @@ class Translation(object):
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🎵 Musiqi', callback_data='musıc'),
-        InlineKeyboardButton('👨‍💻 Sahib Əmrləri', callback_data='sahib'), 
+        InlineKeyboardButton('🎵 Musiqi', callback_data='musıc'), 
         ],[        
         InlineKeyboardButton('↪️ Geri Qayıt', callback_data='home'),
         ]]
@@ -81,11 +65,6 @@ class Translation(object):
     
     
     MUSIC_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
-        ]]
-    )
-    SAHIB_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('↪️ Geri Qayıt', callback_data='help'),
         ]]
