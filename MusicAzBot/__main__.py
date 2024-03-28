@@ -2,16 +2,9 @@
 # Sahib @HuseynH
 # Repo Açığdısa İcazəsis Götürmə
 
-import os
-import time
-import psutil
-import shutil
-import string
-import asyncio
+
 from MusicAzBot.config import Config
-from asyncio import TimeoutError
 from MusicAzBot.translation import Translation
-from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from MusicAzBot.Plugin import *
 from MusicAzBot.Music import *
 from pyrogram import idle, filters
