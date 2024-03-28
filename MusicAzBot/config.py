@@ -5,7 +5,7 @@ class Config:
 
    API_ID = int(os.getenv("API_ID", "8953338"))
    API_HASH = os.getenv("API_HASH", "fe21f223cb02d8f7c1cbda651f553a45")
-   BOT_TOKEN = os.getenv("BOT_TOKEN", "2142897671:AAEHf0HdxZN3vm3eUcTz72dB38ma8vY_AaE")
+   BOT_TOKEN = os.getenv("BOT_TOKEN", "2142897671:ghyujjhgggggggggggggfddddddddddddtttttttttttttt")
    BOT_USERNAME = os.environ.get("BOT_USERNAME", "MusicAzBot")
    OWNER_NAME = os.environ.get("OWNER_NAME", "HuseynH") 
    PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "MusicAzPlaylist")
